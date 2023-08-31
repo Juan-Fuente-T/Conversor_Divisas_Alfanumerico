@@ -14,6 +14,7 @@ Capturas de pantalla
 
 
 Instalación
+
 1.Clona este repositorio en tu máquina local: git clone https://github.com/tu-usuario/ahorcado_sonido.git
 
 2.Abre el archivo con ti IDE favorido, por ejemplo VSCode y haz correr el programa. Si lo haces con VSCode puedes hacerlo con Ctrl + F5.
