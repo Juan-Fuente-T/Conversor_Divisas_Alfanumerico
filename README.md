@@ -19,14 +19,20 @@ Instalación
 
 2.Abre el archivo con ti IDE favorido, por ejemplo VSCode y haz correr el programa. Si lo haces con VSCode puedes hacerlo con Ctrl + F5.
 
+
+
 Características
 No dispone de interfaz gráfica, pero puedes utilizarlo a través de la terminal e introduciendo los datos mediante del teclado. Te pedirá una cantidad y las dos divisas necesarias para la conversión. 
 
+
 Fecha de publicación: 12 de julio de 2023
+
 
 Autor: Juan Fuente
 
+
 Ver al final de este documento la información completa de Autoría y Distribución.
+
 
 Edición GRATUITA. 
 
