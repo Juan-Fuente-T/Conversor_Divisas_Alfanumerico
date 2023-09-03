@@ -59,13 +59,16 @@ La versión 1.0 es el primer "Release" al público, distribuído de manera gratu
 
 
 ## 3. INSTRUCCIONES
-Para utilizar la Calculadora de Préstamos, siga estos pasos:
+Para utilizar el Conversor de Divisas, siga estos pasos:
 
- - Seleccione del desplegable la moneda de origen.
- - Selecciones del desplegable la moneda de destino.
+ - Introduzca mediante teclado el código ISO de la moneda de origen, por ejemplo EUR, y pulse enter.
+   (Puede obtener un listado de los códigos ISO de todas las monedas pulsando 1 y enter)
+ - Introducir la cantidad de moneda a convertir, por ejemplo 100, y pulse enter.
+ - Introduzca el código ISO de la moneda de destino, por ejemplo USD, y pulse enter.
+    (Puede obtener un listado de los códigos ISO de todas las monedas pulsando 1 y enter)
  - Se le mostrará el cambio para una unidad de la moneda de origen.
- - Introduza otra cantidad si lo desea pulsando y pulse el botón **Convertir**. Puede repetir la operación todas las veces que quiera.
- - Los valores para los cálculos son tomados en tiempo real en segundo plano por la aplicación mediante una llamada a API.
+
+   Los valores para los cálculos son tomados en tiempo real en segundo plano por la aplicación mediante una llamada a API.
 
 ## 4. REQUISITOS DE USO
 Antes de ejecutar el programa, asegúrate de tener instalado Python en tu sistema. Puedes hacerlo siguiendo estos pasos:
