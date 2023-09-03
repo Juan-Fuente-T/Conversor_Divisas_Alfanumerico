@@ -61,9 +61,9 @@ La versión 1.0 es el primer "Release" al público, distribuído de manera gratu
 ## 3. INSTRUCCIONES
 Para utilizar el Conversor de Divisas, siga estos pasos:
 
+ - Introducir la cantidad de moneda a convertir, por ejemplo 100, y pulse enter.
  - Introduzca mediante teclado el código ISO de la moneda de origen, por ejemplo EUR, y pulse enter.
    (Puede obtener un listado de los códigos ISO de todas las monedas pulsando 1 y enter)
- - Introducir la cantidad de moneda a convertir, por ejemplo 100, y pulse enter.
  - Introduzca el código ISO de la moneda de destino, por ejemplo USD, y pulse enter.
     (Puede obtener un listado de los códigos ISO de todas las monedas pulsando 1 y enter)
  - Se le mostrará el cambio para una unidad de la moneda de origen.
