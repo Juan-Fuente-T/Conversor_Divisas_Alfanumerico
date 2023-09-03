@@ -38,11 +38,11 @@ Edición GRATUITA.
 
 # Contenido de este documento
 
-  - 1. Breve descripción de la aplicación
-  - 2. Nuevo y especial en esta versión
-  - 3. Intrucciones
-  - 4. Requisitos de uso
-  - 5. Créditos e información de contacto.
+  - 1 Breve descripción de la aplicación
+  - 2 Nuevo y especial en esta versión
+  - 3 Intrucciones
+  - 4 Requisitos de uso
+  - 5 Créditos e información de contacto.
 
 
 ## 1. BREVE DESCRIPCIÓN DE LA APLICACIÓN
