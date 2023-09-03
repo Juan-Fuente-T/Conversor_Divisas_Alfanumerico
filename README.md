@@ -74,11 +74,10 @@ Para utilizar el Conversor de Divisas, siga estos pasos:
 Antes de ejecutar el programa, asegúrate de tener instalado Python en tu sistema. Puedes hacerlo siguiendo estos pasos:
 
  -  Clona este repositorio en tu máquina local:
-### git clone https://github.com/tu-usuario/tu-proyecto.git
+### git clone [https://github.com/tu-usuario/tu-proyecto.git](https://github.com/Juan-Fuente-T/Conversor_Divisas_Alfanumerico)
 
  -  Ingresa al directorio del proyecto:
-### cd tu-proyecto
-
+### cd Conversor_Divisas_Alfanumerico
  -  Instala las dependencias necesarias ejecutando el siguiente comando:
 ### pip install -r requirements.txt
 
