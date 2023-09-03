@@ -4,7 +4,7 @@
 
 Calculadora conversora de divisas, monousuario, para uso personal y profesional en entornos Windows y Linux.
 
-Debe elegir de los dos desplegables la moneda de origen, su moneda, y la divisa de destino, la modena de la cual desea obtener el cambio. Una vez que haya seleccionado ambas, se le mostrará por defecto el cambio para una unidad de su moneda. Puede hacer la conversión de la cantidad que usted desee simplemente haciendo clic dentro de la ventana cantidad, introduciendo la cantidad que desee y pulsando el botón Convertir. Puede repetir la operación todas las veces que quiera. 
+Debe introducir la moneda de origen en formato ISO ,su moneda y la divisa de destino en formato ISO, la modena de la cual desea obtener el cambio. Tambien debe introducir la cantidad. Se le mostrará el valor de cambio entre esas dos monedas para esa cantidad. 
 
 Los valores para los cálculos son tomados en segundo plano por la aplicación mediante una llamada a API en tiempo real.
 
@@ -64,7 +64,7 @@ Para utilizar la Calculadora de Préstamos, siga estos pasos:
  - Seleccione del desplegable la moneda de origen.
  - Selecciones del desplegable la moneda de destino.
  - Se le mostrará el cambio para una unidad de la moneda de origen.
- - Introduza otra cantidad si lo desea pulsando el botón Convertir. Puede repetir la operación todas las veces que quiera.
+ - Introduza otra cantidad si lo desea pulsando y pulse el botón **Convertir**. Puede repetir la operación todas las veces que quiera.
  - Los valores para los cálculos son tomados en tiempo real en segundo plano por la aplicación mediante una llamada a API.
 
 ## 4. REQUISITOS DE USO
@@ -80,14 +80,14 @@ Antes de ejecutar el programa, asegúrate de tener instalado Python en tu sistem
 ### pip install -r requirements.txt
 
  - Ejecuta el siguiente comando para iniciar la aplicación:
-### python calculadora_prestamos_grafica-0.0.1.py (o adaptar al nombre exacto del archivo si es necesario)
+### python conversor_divisas_alfanumerico.py (o adaptar al nombre exacto del archivo si es necesario)
 
 
 ## Créditos e información de contacto
 - ### Licencia
 Este proyecto se distribuye bajo la licencia MIT. Puedes ver los detalles de la licencia aqui https://es.wikipedia.org/wiki/Licencia_MIT.
 
-- ###Contacto
+- ### Contacto
 Si tienes alguna pregunta, sugerencia o comentario sobre este proyecto, no dudes en contactarme a través de los canales que tengo disponibles en mi web ' https://juanfuente.ovh '
 
 
