@@ -1,0 +1,21 @@
+﻿# *** CALCULADORA DE DIVISAS :: Version 0.0.5 ***
+# Creative Commons 2023 Juan Fuente
+
+"""
+Esta aplicación multiplataforma (Windows, Linux, Mac) convierte una cantidad de una moneda en codigo ISO, por ejemplo EUR (euros), en el valor correspondiente en otra divisa, por ejemplo USD (dolares americanos), y opera mediante interfaz alfanumérica en el terminal del sistema operativo :
+
+
+"""Novedades de la versión 0.2.1
+- Integración de un segundo calculo para mostrar al usuario el valor de una unidad de una divisa moneda respecto a su moneda.
+"""
+
+
+"""Novedades de la versión 0.2.0
+- Integración de un calculo para mostrar al usuario el valor de una unidad de su moneda en la divisa a la que la desea cambiar
+- Integracion de un diccionario a disposicion del usario con los codigos ISO y su nombre ordenados alfabeticamente. 
+- - Pulido de la documentcion
+"""
+
+"""Novedades de la versión 0.0.5
+- Integración de la función prettify para montrar los numeros con puntos separando millares y millones y comas para separar los decimales
+"""
