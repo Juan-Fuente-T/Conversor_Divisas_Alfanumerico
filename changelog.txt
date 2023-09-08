@@ -5,12 +5,13 @@
 Esta aplicación multiplataforma (Windows, Linux, Mac) convierte una cantidad de una moneda en codigo ISO, por ejemplo EUR (euros), en el valor correspondiente en otra divisa, por ejemplo USD (dolares americanos), y opera mediante interfaz alfanumérica en el terminal del sistema operativo :
 
 
-"""Novedades de la versión 0.2.1
+"""Novedades de la versión 0.1.1
 - Integración de un segundo calculo para mostrar al usuario el valor de una unidad de una divisa moneda respecto a su moneda.
+- Se añade archivo .env para guardar la clave de la API
 """
 
 
-"""Novedades de la versión 0.2.0
+"""Novedades de la versión 0.1.0
 - Integración de un calculo para mostrar al usuario el valor de una unidad de su moneda en la divisa a la que la desea cambiar
 - Integracion de un diccionario a disposicion del usario con los codigos ISO y su nombre ordenados alfabeticamente. 
 - - Pulido de la documentcion

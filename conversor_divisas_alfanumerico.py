@@ -6,13 +6,13 @@
 
 
 
-                                              #CALCULADORA DE DIVISAS v0.2.1
+                                              #CALCULADORA DE DIVISAS v0.1.1
 """
 Esta aplicación multiplataforma (Windows, Linux, Mac) convierte una cantidad de una moneda en codigo ISO, por ejemplo EUR (euros), en el valor correspondiente en otra divisa, por ejemplo USD (dolares americanos), y opera mediante interfaz alfanumérica en el terminal del sistema operativo :
 """
 # ©2023 Calculadora de divisas de Juan Fuente
 
-"""Novedades de la versión 0.2.1
+"""Novedades de la versión 0.1.1
 - Integración de un segundo calculo para mostrar al usuario el valor de una unidad de una divisa respecto a su moneda
 - Se añade .env para guardar la clave de la API
 """
@@ -35,7 +35,7 @@ url = f"http://api.exchangeratesapi.io/v1/latest?access_key={api_key}" #url que 
 json_divisas = requests.get(url) #se realiza la llamada a los datos de la url de la api
 divisas = json_divisas.json() #se guardan los datos de las conversiones en un archivo json
 """
-s -- Se descomenta y se comenta la request a la API para no gastar las llamadas mensuales mientras se hacen pruebas de desarrollo.#DICCIONARIO CON EL LISTADO DE DIVISAS PARA PRUEBAS Y NO GASTAR LAS LLAMADAS A LA API, que tiene llamadas limitadas mensuale
+DATOS GUARDADOS de la request a la API para no gastar las llamadas mensuales mientras se hacen pruebas de desarrollo.#DICCIONARIO CON EL LISTADO DE DIVISAS PARA PRUEBAS Y NO GASTAR LAS LLAMADAS A LA API, que tiene llamadas limitadas mensuale
 #Para utiliarlo descomentarlo y comentar las 4 lineas anteriores referentes a la llamada a la Api y guardar los datos recibidos
 
 divisas = {'success': True, 'timestamp': 1686316503, 'base': 'EUR', 'date': '2023-06-09', 'rates': {'AED': 3.954746, 'AFN': 92.174953, 'ALL': 105.694703, 'AMD': 
@@ -46,7 +46,7 @@ divisas = {'success': True, 'timestamp': 1686316503, 'base': 'EUR', 'date': '202
 """
 keys = list(divisas['rates'].keys()) #se cogen los nombres de las divisas y se meten en una lista donde poder comparar si están las elegidas por el usuario
 
-#diccionario de divisas ordenadas alfabeticamente por su nombre en castellano
+#diccionario de divisas ordenadas alfabeticamente por su nombre en castellano, necesario para obtener el valor de la clave introducida por el usuario(moneda en formato ISO)
 diccionario_currencies = {
     'Afgani afgano': 'AFN',
     'Baht tailandés': 'THB',
